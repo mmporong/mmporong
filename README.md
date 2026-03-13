@@ -1,4 +1,4 @@
-# Hi there, I'm Joo-young (mmporong) 👋
+# Hi there, I'm Joo-young👋
 
 ![Running Cats](https://raw.githubusercontent.com/mmporong/running-cats/main/cat-snake.svg?v=999)
 ---
