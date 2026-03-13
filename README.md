@@ -1,7 +1,7 @@
 # Hi there, I'm Joo-young (mmporong) 👋
 
 ## 🐱 My Running Cats
-![Running Cats](https://raw.githubusercontent.com/mmporong/running-cats/main/cat-snake.svg?v=999)
+![Cat Snake](https://raw.githubusercontent.com/mmporong/running-cats/main/cat-snake.gif)
 ---
 ### 🎮 About Me
 * **Unity & C#** 개발자입니다.
