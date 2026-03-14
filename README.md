@@ -21,6 +21,7 @@ Unity & C# **개발자** 임주영입니다.
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Cursor](https://img.shields.io/badge/Cursor-000000?style=flat-square&logo=cursor&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white)
+![SolidWorks](https://img.shields.io/badge/SolidWorks_2D-CC1F35?style=flat-square&logo=solidworks&logoColor=white)
 
 ---
 
@@ -40,4 +41,5 @@ Unity & C# **개발자** 임주영입니다.
 ### 📫 Contact
 
 [![Email](https://img.shields.io/badge/Email-mmporong%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:mmporong@gmail.com)
-[![Google Play](https://img.shields.io/badge/Google_Play-414141?style=flat-square&logo=googleplay&logoColor=white)](https://play.google.com/store/apps/dev?id=7488802924019572290)
+[![Google Play](https://img.shields.io/badge/Google_Play-4FC3F7?style=flat-square&logo=googleplay&logoColor=white)](https://play.google.com/store/apps/dev?id=7488802924019572290)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@hardboiledexpress940)
