@@ -29,11 +29,11 @@ Unity & C# **개발자** 임주영입니다.
 
 | 프로젝트 | 설명 |
 |----------|------|
+| [**Feedme**](https://play.google.com/store/apps/details?id=com.hardboiledexpress.hefeedmee) | 고양이 수집형 리듬 게임 · AdMob 수익화 · 세이브/로드 |
 | [**Archer**](https://mmporong.github.io/addressables/index.html) | 물리 기반 궁수 전투 게임 · 5종 스킬 · 오브젝트 풀링 |
-| [**Feedme**](https://play.google.com/store/apps/details?id=com.hardboiledexpress.hefeedmee) | 방치형 농장 게임 · AdMob 수익화 · 세이브/로드 |
+| [**Agent Office**](https://mmporong.github.io/agent-office/) | 서브 에이전트 오피스 대시보드 · React + TypeScript |
 | **CatRace** | 고양이 레이싱 · AI 상대 · 로비 시스템 |
 | **TDS** | 탑다운 슈터 · 몬스터 AI · 매니저 시스템 |
-| [**Agent Office**](https://mmporong.github.io/agent-office/) | 픽셀아트 에이전트 오피스 대시보드 · React + TypeScript |
 | **Simground** | 과학실험 시뮬레이션 플랫폼 · WebGL 빌드 자동화 |
 
 ---
