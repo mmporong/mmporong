@@ -21,11 +21,11 @@ Unity & C# **개발자** 임주영입니다.
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Cursor](https://img.shields.io/badge/Cursor-000000?style=flat&logo=cursor&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude-D97757?style=flat&logo=anthropic&logoColor=white)
-![SolidWorks](https://img.shields.io/badge/SolidWorks-CC1F35?style=flat&logo=solidworks&logoColor=white)
-![AutoCAD](https://img.shields.io/badge/AutoCAD-0696D7?style=flat&logo=autocad&logoColor=white)
-![Photoshop](https://img.shields.io/badge/Adobe_Photoshop-31A8FF?style=flat&logo=adobephotoshop&logoColor=white)
 ![Notion](https://img.shields.io/badge/Notion-000000?style=flat&logo=notion&logoColor=white)
 ![Slack](https://img.shields.io/badge/Slack-4A154B?style=flat&logo=slack&logoColor=white)
+![Photoshop](https://img.shields.io/badge/Adobe_Photoshop-31A8FF?style=flat&logo=adobephotoshop&logoColor=white)
+![SolidWorks](https://img.shields.io/badge/SolidWorks-CC1F35?style=flat&logo=solidworks&logoColor=white)
+![AutoCAD](https://img.shields.io/badge/AutoCAD-0696D7?style=flat&logo=autocad&logoColor=white)
 
 ---
 
