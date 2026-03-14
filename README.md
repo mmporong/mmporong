@@ -22,7 +22,7 @@ Unity & C# **개발자** 임주영입니다.
 ![Cursor](https://img.shields.io/badge/Cursor-000000?style=flat-square&logo=cursor&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white)
 ![SolidWorks](https://img.shields.io/badge/SolidWorks-CC1F35?style=flat-square&logo=solidworks&logoColor=white)
-![2D CAD](https://img.shields.io/badge/2D_CAD-000000?style=flat-square&logo=autocad&logoColor=white)
+![AutoCAD](https://img.shields.io/badge/AutoCAD-0696D7?style=flat-square&logo=autocad&logoColor=white)
 
 ---
 
