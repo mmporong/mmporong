@@ -12,6 +12,10 @@ Unity & C# **개발자** 임주영입니다.
 - 🕹️ 모바일 게임 기획·개발·출시 경험
 - 🔬 과학실험 시뮬레이션 플랫폼 개발 (dannect-unity-toolkit, Simground)
 
+🎓 Bachelor of Science in Mechanical Engineering at Korea Polytechnic University (한국공학대학교)
+🎮 Joined as a Unity developer at Hardboiled Express (하드보일드 익스프레스)
+🎮 Joined as a Unity developer at Dannect (다넥트)
+
 ---
 
 ### 🛠️ Tech Stack
