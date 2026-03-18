@@ -1,6 +1,6 @@
 # Hi there, I'm Joo-young 👋
 
-![Cat Snake](https://raw.githubusercontent.com/mmporong/running-cats/main/cat-snake.gif?v=final)
+![Cat Snake](https://raw.githubusercontent.com/mmporong/running-cats/main/cat-snake.gif?v=6a04031)
 
 ---
 
