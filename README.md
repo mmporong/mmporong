@@ -6,12 +6,12 @@
 
 ### 🎮 About Me
 
-Unity & C# **개발자** 임주영입니다.
-캐주얼 모바일 게임부터 3D 과학실험 시뮬레이션까지, 다양한 인터랙티브 콘텐츠를 만들고 있습니다.
+● Unity & C# developer Joo-young Lim.
+  Building interactive content — from casual mobile games to 3D science simulations.
 
-- 🎓 **한국공학대학교** 기계공학과 졸업
-- 🕹️ **하드보일드 익스프레스**  모바일 게임 기획·개발·출시
-- 🔬 **다넥트**  과학실험 시뮬레이션 플랫폼 개발 (dannect-unity-toolkit, Simground)
+  🎓 B.S. Mechanical Engineering, Tech University of Korea
+  🕹️ Hardboiled Express — Mobile game dev, from planning to Play Store launch (Google Play Featured, ★4.7)
+  🔬 Dannect — 80+ WebGL science simulations on Simground platform (dannect-unity-toolkit)
 
 ---
 
