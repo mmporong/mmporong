@@ -6,7 +6,7 @@
 
 ### 🎮 About Me
 
-● Unity & C# developer Joo-young Lim.
+● Unity & C# developer Joo-young Lim.<br>
   Building interactive content — from casual mobile games to 3D science simulations.
 
   🎓 B.S. Mechanical Engineering, Tech University of Korea<br>
