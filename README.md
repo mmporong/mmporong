@@ -9,8 +9,8 @@
 ● Unity & C# developer Joo-young Lim.
   Building interactive content — from casual mobile games to 3D science simulations.
 
-  🎓 B.S. Mechanical Engineering, Tech University of Korea
-  🕹️ Hardboiled Express — Mobile game dev, from planning to Play Store launch (Google Play Featured, ★4.7)
+  🎓 B.S. Mechanical Engineering, Tech University of Korea<br>
+  🕹️ Hardboiled Express — Mobile game dev, from planning to Play Store launch (Google Play Featured, ★4.7)<br>
   🔬 Dannect — 80+ WebGL science simulations on Simground platform (dannect-unity-toolkit)
 
 ---
