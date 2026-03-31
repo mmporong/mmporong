@@ -6,8 +6,8 @@
 
 ### 🎮 About Me
 
-● Unity & C# developer Joo-young Lim.<br>
-  Building interactive content — from casual mobile games to 3D science simulations.
+#### Unity & C# developer Lim-jooyoung.<br>
+● Building interactive content — from casual mobile games to 3D science simulations.
 
   🎓 B.S. Mechanical Engineering, Tech University of Korea<br>
   🕹️ Hardboiled Express — Mobile game dev, from planning to Play Store launch (Google Play Featured, ★4.7)<br>
