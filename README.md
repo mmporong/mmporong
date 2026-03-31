@@ -46,5 +46,7 @@ Unity & C# **개발자** 임주영입니다.
 ### 📫 Contact
 
 [![Email](https://img.shields.io/badge/Email-mmporong%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:mmporong@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mmporong/)
 [![Google Play](https://img.shields.io/badge/Google_Play-4FC3F7?style=flat-square&logo=googleplay&logoColor=white)](https://play.google.com/store/apps/dev?id=7488802924019572290)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@hardboiledexpress940)
+
