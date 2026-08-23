@@ -4,30 +4,50 @@
 
 ---
 
-### 🎮 About Me
+### 🤖 About Me
 
-#### Unity & C# developer Lim-jooyoung.<br>
-● Building interactive content — from casual mobile games to 3D science simulations.
+#### Robotics software engineer (junior) — ROS 2 · C++ · Python · Linux<br>
+● Moving from five years of Unity/C# (mobile games, 80+ WebGL science simulations) to software that runs on real robots.
 
-  🎓 B.S. Mechanical Engineering, Tech University of Korea<br>
-  🕹️ Hardboiled Express — Mobile game dev, from planning to Play Store launch (Google Play Featured, ★4.7)<br>
-  🔬 Dannect — 80+ WebGL science simulations on Simground platform (dannect-unity-toolkit)
+  🎓 B.S. Mechanical Engineering, Tech University of Korea · Physical AI Semi-Humanoid Engineer Program, Dongguk Univ. AI Campus (K-Digital Training, 2026.06 – 2026.11)<br>
+  🚗 JD-AMR Cube — real 2-wheel AMR bring-up: firmware watchdog / encoder unwrap, C++ ROS 2 base driver, SLAM & Nav2 integration<br>
+  🦾 SO-101 arm — bus-servo bring-up → IK on hardware → depth-camera pick-and-place<br>
+  🏭 mini-FMS — deterministic multi-robot warehouse coordinator (40 robots, zero-collision invariant, golden-trajectory regression)<br>
+  🌱 I write up everything I build and read in **hello, robot** → https://mmporong.github.io/robotics-garden/<br>
+  🕹️ Before that: Hardboiled Express (Google Play Featured, ★4.7) · Dannect (80+ WebGL science simulations on Simground)
 
 ---
 
 ### 🛠️ Tech Stack
 
-![Unity](https://img.shields.io/badge/Unity-000000?style=flat&logo=unity&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=csharp&logoColor=white)
+![ROS 2](https://img.shields.io/badge/ROS_2-22314E?style=flat&logo=ros&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=cplusplus&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Cursor](https://img.shields.io/badge/Cursor-000000?style=flat&logo=cursor&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu_24.04-E95420?style=flat&logo=ubuntu&logoColor=white)
+![Gazebo](https://img.shields.io/badge/Gazebo_Harmonic-F58113?style=flat&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-A22846?style=flat&logo=raspberrypi&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat&logo=espressif&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=csharp&logoColor=white)
+![Unity](https://img.shields.io/badge/Unity-000000?style=flat&logo=unity&logoColor=white)
+
 ![Claude](https://img.shields.io/badge/Claude-D97757?style=flat&logo=anthropic&logoColor=white)
+![Codex](https://img.shields.io/badge/Codex-412991?style=flat&logo=openai&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 ![Notion](https://img.shields.io/badge/Notion-000000?style=flat&logo=notion&logoColor=white)
-![Slack](https://img.shields.io/badge/Slack-4A154B?style=flat&logo=slack&logoColor=white)
-![Photoshop](https://img.shields.io/badge/Adobe_Photoshop-31A8FF?style=flat&logo=adobephotoshop&logoColor=white)
 ![SolidWorks](https://img.shields.io/badge/SolidWorks-CC1F35?style=flat&logo=solidworks&logoColor=white)
-![AutoCAD](https://img.shields.io/badge/AutoCAD-0696D7?style=flat&logo=autocad&logoColor=white)
+
+---
+
+### 🧭 Now & Next
+
+| | |
+|---|---|
+| 📍 | Seoul · Physical AI bootcamp (Dongguk AI Campus) until 2026.11, then looking for a junior robotics software role |
+| 🔧 | Hands-on: Ubuntu 24.04 + ROS 2 Jazzy, Gazebo Harmonic, SLAM Toolbox / Nav2, Feetech bus servos, SO-101, JD-AMR |
+| 🧪 | Latest build: **BreakTok** — 6-axis IMU puck that notices doomscrolling from hand rhythm (TOYTHON 2026, top-20 final) → [write-up](https://mmporong.github.io/robotics-garden/breaktok) · [demo](https://youtu.be/JNRhMsXxMYg) |
+| 📚 | Public repos to start with: [mini-fms](https://github.com/mmporong/mini-fms) · [deepthinkcar](https://github.com/mmporong/deepthinkcar) · [robotics-python-drills](https://github.com/mmporong/robotics-python-drills) · [unity-perf-alchemist](https://github.com/mmporong/unity-perf-alchemist) |
 
 ---
 
@@ -35,6 +55,6 @@
 
 [![Email](https://img.shields.io/badge/Email-mmporong%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:mmporong@gmail.com)
 [![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin-white&logoColor=fff)](https://www.linkedin.com/in/mmporong/)
-[![Google Play](https://img.shields.io/badge/Google_Play-4FC3F7?style=flat-square&logo=googleplay&logoColor=white)](https://play.google.com/store/apps/dev?id=7488802924019572290)
+[![hello, robot](https://img.shields.io/badge/hello%2C_robot-garden-2E7D32?style=flat-square&logo=github&logoColor=white)](https://mmporong.github.io/robotics-garden/)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@hardboiledexpress940)
-
+[![Google Play](https://img.shields.io/badge/Google_Play-4FC3F7?style=flat-square&logo=googleplay&logoColor=white)](https://play.google.com/store/apps/dev?id=7488802924019572290)
