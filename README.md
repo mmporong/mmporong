@@ -7,14 +7,14 @@
 ### 🤖 About Me
 
 #### Robotics software engineer (junior) — ROS 2 · C++ · Python · Linux<br>
-● Moving from five years of Unity/C# (mobile games, 80+ WebGL science simulations) to software that runs on real robots.
+● Five years of Unity/C# (mobile games, 80+ WebGL science sims) → software that runs on real robots.
 
-  🎓 B.S. Mechanical Engineering, Tech University of Korea · Physical AI Semi-Humanoid Engineer Program, Dongguk Univ. AI Campus (K-Digital Training, 2026.06 – 2026.11)<br>
-  🚗 JD-AMR Cube — real 2-wheel AMR bring-up: firmware watchdog / encoder unwrap, C++ ROS 2 base driver, SLAM & Nav2 integration<br>
+  🎓 B.S. Mechanical Engineering (Tech Univ. of Korea) · Physical AI bootcamp, Dongguk AI Campus (2026.06 – 11)<br>
+  🚗 JD-AMR Cube — real AMR bring-up: firmware watchdog, C++ ROS 2 base driver, SLAM & Nav2 integration<br>
   🦾 SO-101 arm — bus-servo bring-up → IK on hardware → depth-camera pick-and-place<br>
-  🏭 mini-FMS — deterministic multi-robot warehouse coordinator (40 robots, zero-collision invariant, golden-trajectory regression)<br>
-  🌱 I write up everything I build and read in **hello, robot** → https://mmporong.github.io/robotics-garden/<br>
-  🕹️ Before that: Hardboiled Express (Google Play Featured, ★4.7) · Dannect (80+ WebGL science simulations on Simground)
+  🧪 BreakTok — IMU puck that notices doomscrolling from hand rhythm (TOYTHON 2026, top-20 final)<br>
+  🌱 Write-ups of everything I build and read: [**hello, robot**](https://mmporong.github.io/robotics-garden/)<br>
+  🕹️ Before: Hardboiled Express (Google Play Featured, ★4.7) · Dannect (80+ WebGL science simulations)
 
 ---
 
@@ -44,10 +44,10 @@
 
 | | |
 |---|---|
-| 📍 | Seoul · Physical AI bootcamp (Dongguk AI Campus) until 2026.11, then looking for a junior robotics software role |
+| 📍 | Seoul · Physical AI bootcamp (Dongguk AI Campus) until 2026.11, then a junior robotics software role |
 | 🔧 | Hands-on: Ubuntu 24.04 + ROS 2 Jazzy, Gazebo Harmonic, SLAM Toolbox / Nav2, Feetech bus servos, SO-101, JD-AMR |
-| 🧪 | Latest build: **BreakTok** — 6-axis IMU puck that notices doomscrolling from hand rhythm (TOYTHON 2026, top-20 final) → [write-up](https://mmporong.github.io/robotics-garden/breaktok) · [demo](https://youtu.be/JNRhMsXxMYg) |
-| 📚 | Public repos to start with: [mini-fms](https://github.com/mmporong/mini-fms) · [deepthinkcar](https://github.com/mmporong/deepthinkcar) · [robotics-python-drills](https://github.com/mmporong/robotics-python-drills) · [unity-perf-alchemist](https://github.com/mmporong/unity-perf-alchemist) |
+| 🧪 | Latest build: **BreakTok** (TOYTHON 2026, top-20 final) → [write-up](https://mmporong.github.io/robotics-garden/breaktok) · [demo](https://youtu.be/JNRhMsXxMYg) · [repo](https://github.com/mmporong/toython-hackathon) |
+| 📚 | Start here: [physical-ai-lab](https://github.com/mmporong/physical-ai-lab) · [gazebo-so101-capstone](https://github.com/mmporong/gazebo-so101-capstone) · [robot-dashboard](https://github.com/mmporong/robot-dashboard) · [deepthinkcar](https://github.com/mmporong/deepthinkcar) |
 
 ---
 
