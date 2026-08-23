@@ -7,9 +7,10 @@
 ### 🤖 About Me
 
 #### Robotics software engineer (junior) — ROS 2 · C++ · Python · Linux<br>
-● Five years of Unity/C# (mobile games, 80+ WebGL science sims) → software that runs on real robots.
+● Mechanical engineering (B.S.) + five years of Unity/C# software (mobile games, 80+ WebGL science sims).<br>
+● Robotics is where the two meet — so now I write software that runs on real robots.
 
-  🎓 B.S. Mechanical Engineering (Tech Univ. of Korea) · Physical AI bootcamp, Dongguk AI Campus (2026.06 – 11)<br>
+  🎓 Physical AI Semi-Humanoid Engineer Program, Dongguk AI Campus (2026.06 – 11) · B.S. Mech. Eng., Tech Univ. of Korea<br>
   🚗 JD-AMR Cube — real AMR bring-up: firmware watchdog, C++ ROS 2 base driver, SLAM & Nav2 integration<br>
   🦾 SO-101 arm — bus-servo bring-up → IK on hardware → depth-camera pick-and-place<br>
   🧪 BreakTok — IMU puck that notices doomscrolling from hand rhythm (TOYTHON 2026, top-20 final)<br>
