@@ -47,7 +47,7 @@
 | 📍 | Seoul · Physical AI bootcamp (Dongguk AI Campus) until 2026.11, then a junior robotics software role |
 | 🔧 | Hands-on: Ubuntu 24.04 + ROS 2 Jazzy, Gazebo Harmonic, SLAM Toolbox / Nav2, Feetech bus servos, SO-101, JD-AMR |
 | 🧪 | Latest build: **BreakTok** (TOYTHON 2026, top-20 final) → [write-up](https://mmporong.github.io/robotics-garden/breaktok) · [demo](https://youtu.be/JNRhMsXxMYg) · [repo](https://github.com/mmporong/toython-hackathon) |
-| 📚 | Start here: [physical-ai-lab](https://github.com/mmporong/physical-ai-lab) · [gazebo-so101-capstone](https://github.com/mmporong/gazebo-so101-capstone) · [robot-dashboard](https://github.com/mmporong/robot-dashboard) · [deepthinkcar](https://github.com/mmporong/deepthinkcar) |
+| 📚 | Start here: [gazebo-so101-capstone](https://github.com/mmporong/gazebo-so101-capstone) · [robot-dashboard](https://github.com/mmporong/robot-dashboard) · [bimanual-robot](https://github.com/mmporong/bimanual-robot) · [deepthinkcar](https://github.com/mmporong/deepthinkcar) |
 
 ---
 
