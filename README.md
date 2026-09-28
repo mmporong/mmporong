@@ -6,18 +6,19 @@
 
 ### 🤖 About Me
 
-#### Robotics software engineer (junior) — ROS 2 · C++ · Python · Linux<br>
-● Mechanical engineering (B.S.) + five years of Unity/C# software (mobile games, 80+ WebGL science sims).<br>
-● Robotics is where the two meet — so now I write software that runs on real robots.
+#### Robotics software engineer (junior) | ROS 2 · C++ · Python · Linux<br>
+Mechanical engineering (B.S.) and about five years of Unity/C# software development.<br>
+I connect robot hardware, navigation and task execution, then check the results against real-robot runs and recorded logs.
 
-  🎓 Physical AI Semi-Humanoid Engineer Program, Dongguk AI Campus (2026.07.06–11.04, in progress) · B.S. Mech. Eng., Tech Univ. of Korea<br>
-  🚗 JD-AMR Cube: ESP32 firmware, C++ ROS 2 driver, Cartographer & Nav2. Completed an approximately 77 m corridor round trip; an obstacle run reached 20 goals with six protective stops followed by same-goal resumption, checked against MCAP logs.<br>
-  🦾 SO-101 arm: analytical IK and wrist-camera alignment completed pick-and-place. ACT produced one observed autonomous descent and grasp on the same workbench; repeated success rate and retraining effects remain unverified.<br>
-  🧪 Gazebo: reconstructed the saved map and obstacle scenes as a 2.5D test environment, then tested protective-stop and recovery transitions under synthetic low friction. This is not a live-synchronized or measured 3D reconstruction.<br>
-  🐾 Isaac Lab / Go2: compared reward conditions under a fixed training budget and evaluated policies separately across directions, terrain, and seeds.<br>
-  🧪 BreakTok — IMU puck that notices doomscrolling from hand rhythm (TOYTHON 2026, top-20 final)<br>
-  🌱 Write-ups of everything I build and read: [**hello, robot**](https://mmporong.github.io/robotics-garden/)<br>
-  🕹️ Before: Hardboiled Express (Google Play Featured, ★4.7) · Dannect (80+ WebGL science simulations)
+  🎓 Physical AI Semi-Humanoid Engineer Program, Dongguk AI Campus (2026.07.06 to 11.04, in progress) · B.S. Mech. Eng., Tech Univ. of Korea<br>
+  🚗 [AMR](https://github.com/mmporong/jdamr_cube_ros): ESP32 firmware, C++ ROS 2 driver, Cartographer and Nav2. Verified an approximately 77 m corridor round trip, obstacle handling and same-goal resumption. After moving the drive system to a dual-arm robot chassis, I updated its footprint and protective-stop region and ran 20 goals on the existing map.<br>
+  🦾 [SO-101](https://github.com/mmporong/so101-mobile-manipulation): analytical IK and wrist-camera grasping for real-robot pick-and-place. Prepared an ACT dataset with waiting segments removed (22 episodes, 4,503 frames); a separate ACT run produced one observed autonomous cube grasp.<br>
+  🥤 [Dual-arm serving robot](https://github.com/mmporong/bimanual-robot) (team): ROS 2 Action workflows and Isaac Sim robot integration; one planning-based order completed nine stages in simulation. I contributed to robot setup and pre-training integration. A teammate trained the policies, and the team's SmolVLA policy completed one real-robot water-serving sequence using 40 demonstrations.<br>
+  🧪 Gazebo: rebuilt walls from the saved map and reproduced obstacle scenes with the same waypoints and navigation settings.<br>
+  🐾 Isaac Lab / Go2: compared reward conditions under a fixed training budget and evaluated policies across directions, terrain and seeds.<br>
+  🧪 BreakTok: IMU device for detecting scrolling rhythms (TOYTHON 2026, top-20 final)<br>
+  🌱 Learning and experiment notes: [**hello, robot**](https://mmporong.github.io/robotics-garden/)<br>
+  🕹️ Earlier work: mobile game development and operation; 80 WebGL science simulations; Python and Unity CLI parallel builds that reduced build time by about 80%.
 
 ---
 
@@ -43,9 +44,9 @@
 | | |
 |---|---|
 | 📍 | Korea · Physical AI program through 2026.11; seeking junior robotics software integration and testing roles |
-| 🔧 | Hands-on: ROS 2, C++, Python, Linux, Cartographer, Nav2, MCAP, Gazebo, analytical IK, LeRobot / ACT, MuJoCo, Isaac Lab |
-| 🧪 | Current work: AMR obstacle handling and reproducible simulation, SO-101 grasp evaluation, Go2 policy comparison |
-| 📚 | Start here: [portfolio](https://mmporong-portfolio.vercel.app/) · [AMR code & evaluation](https://github.com/mmporong/jdamr_cube_ros) · [SO-101](https://github.com/mmporong/so101-mobile-manipulation) · [Go2 results](https://github.com/mmporong/isaac-walk-rl/blob/main/docs/RESULTS_SUMMARY.md) |
+| 🔧 | Hands-on: ROS 2, C++, Python, Linux, Cartographer, Nav2, MCAP, Gazebo, analytical IK, LeRobot / ACT, MuJoCo, Isaac Sim, Isaac Lab |
+| 🧪 | Current work: AMR chassis integration, SO-101 demonstration data, dual-arm serving workflows and imitation-learning integration |
+| 📚 | Start here: [portfolio](https://mmporong-portfolio.vercel.app/) · [AMR code & evaluation](https://github.com/mmporong/jdamr_cube_ros) · [SO-101](https://github.com/mmporong/so101-mobile-manipulation) · [dual-arm robot](https://github.com/mmporong/bimanual-robot) · [Go2 results](https://github.com/mmporong/isaac-walk-rl/blob/main/docs/RESULTS_SUMMARY.md) |
 
 ---
 
