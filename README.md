@@ -1,72 +1,29 @@
 # Hi there, I'm Joo-young 👋
 
-### Robotics software engineer (junior) | ROS 2 · C++ · Python · Linux
+![Cat Snake](https://raw.githubusercontent.com/mmporong/running-cats/main/cat-snake.gif?v=6a04031)
 
-Mechanical engineering graduate with about five years of Unity/C# software development. I connect robot hardware, navigation and task execution, then check the results against real-robot runs and recorded logs.
+---
 
-[Portfolio](https://mmporong-portfolio.vercel.app/) · [Learning notes: hello, robot](https://mmporong.github.io/robotics-garden/) · [LinkedIn](https://www.linkedin.com/in/mmporong/)
+### 🤖 About Me
 
-Based in Korea. Attending Dongguk AI Campus's Physical AI Semi-Humanoid Engineer Program (July 6 to November 4, 2026); seeking junior robotics software integration and testing roles.
+#### Robotics software engineer (junior) | ROS 2 · C++ · Python · Linux<br>
+Mechanical engineering (B.S.) and about five years of Unity/C# software development.<br>
+I connect robot hardware, navigation and task execution, then check the results against real-robot runs and recorded logs.
 
-## Selected robotics projects
+  🎓 Physical AI Semi-Humanoid Engineer Program, Dongguk AI Campus (2026.07.06 to 11.04, in progress) · B.S. Mech. Eng., Tech Univ. of Korea<br>
+  🚗 [AMR](https://github.com/mmporong/jdamr_cube_ros): ESP32 firmware, C++ ROS 2 driver, Cartographer and Nav2. Verified an approximately 77 m corridor round trip, obstacle handling and same-goal resumption. After moving the drive system to a dual-arm robot chassis, I updated its footprint and protective-stop region and ran 20 goals on the existing map.<br>
+  🦾 [SO-101](https://github.com/mmporong/so101-mobile-manipulation): analytical IK and wrist-camera grasping for real-robot pick-and-place. Prepared an ACT dataset with waiting segments removed (22 episodes, 4,503 frames); a separate ACT run produced one observed autonomous cube grasp. Repeated success rate and the effect of the cleaned dataset remain unverified.<br>
+  🥤 [Dual-arm serving robot](https://github.com/mmporong/bimanual-robot) (team): ROS 2 Action workflows and Isaac Sim robot integration; one planning-based order completed nine stages in simulation. I contributed to robot setup and pre-training integration. A teammate trained the policies, and the team's SmolVLA policy completed one real-robot water-pouring and cup-placement sequence using 40 demonstrations. The simulation workflow and the real-robot policy result are separate experiments.<br>
+  🧪 Gazebo: rebuilt walls from the saved map and reproduced obstacle scenes with the same waypoints and navigation settings.<br>
+  🐾 [Isaac Lab / Go2](https://github.com/mmporong/isaac-walk-rl): compared reward conditions under a fixed training budget and evaluated policies across directions, terrain and seeds; recorded trade-offs and experiments that showed no improvement. Results are from simulation.<br>
+  🔧 Open source: merged fixes in [Navigation2 #6560](https://github.com/ros-navigation/navigation2/pull/6560) (warning throttling), [MuJoCo Menagerie #324](https://github.com/google-deepmind/mujoco_menagerie/pull/324) (SO-101 joint limit), [small_gicp #139](https://github.com/koide3/small_gicp/pull/139) (initial rotation), and [Nav2 docs #980](https://github.com/ros-navigation/docs.nav2.org/pull/980) (Collision Monitor examples).<br>
+  🧪 BreakTok: IMU device for detecting scrolling rhythms (TOYTHON 2026, top-20 final)<br>
+  🌱 Learning and experiment notes: [**hello, robot**](https://mmporong.github.io/robotics-garden/)<br>
+  🕹️ Earlier work: mobile game development and operation; 80 WebGL science simulations; Python and Unity CLI parallel builds that reduced build time by about 80%.
 
-### AMR navigation and chassis integration
+---
 
-[Code](https://github.com/mmporong/jdamr_cube_ros) · [Navigation evidence](https://github.com/mmporong/jdamr_cube_ros/blob/main/jdamr_cube_navigation/README_JDAMR.md)
-
-Integrated ESP32 firmware, a C++ ROS 2 base driver, Cartographer and Nav2. Verified an approximately 77 m corridor round trip, obstacle handling and resumption toward the same goal after stops. After moving the drive system to a dual-arm robot chassis, I updated its footprint and protective-stop region and ran 20 goals on the existing map. Recorded sensor, TF and navigation data in MCAP; rebuilt walls from the saved map in Gazebo to reproduce obstacle scenes.
-
-### SO-101 manipulation and ACT data preparation
-
-[Code](https://github.com/mmporong/so101-mobile-manipulation)
-
-Built analytical IK and wrist-camera alignment for real-robot grasping and box placement. Prepared an ACT dataset with waiting segments removed (22 episodes, 4,503 frames). A separate ACT run produced one observed autonomous cube grasp; repeated success rate and the effect of the cleaned dataset remain unverified.
-
-### Dual-arm serving robot (team)
-
-[Code and experiment records](https://github.com/mmporong/bimanual-robot)
-
-Connected ROS 2 Action workflows and integrated the robot in Isaac Sim; one planning-based order completed nine stages in simulation. I contributed to robot setup and pre-training integration. Policy training was handled by a teammate: the team's SmolVLA policy completed one real-robot water-pouring and cup-placement sequence using 40 demonstrations. The simulation workflow and the real-robot policy result are separate experiments.
-
-### Go2 locomotion experiments in Isaac Lab
-
-[Code](https://github.com/mmporong/isaac-walk-rl) · [Results and run records](https://github.com/mmporong/isaac-walk-rl/blob/main/docs/RESULTS_SUMMARY.md)
-
-Compared reward terms and disturbances under fixed training budgets, with repeated seeds and evaluations across directions and terrain. Recorded trade-offs and experiments that showed no improvement. These are simulation results.
-
-## Open source contributions
-
-### Merged
-
-| Project | Change | Pull request |
-|---|---|---|
-| Navigation2 | Fixed throttling of warnings for velocities not covered by a velocity polygon | [#6560](https://github.com/ros-navigation/navigation2/pull/6560) |
-| MuJoCo Menagerie | Corrected the SO-101 wrist-roll joint's upper limit | [#324](https://github.com/google-deepmind/mujoco_menagerie/pull/324) |
-| small_gicp | Orthonormalized the initial-guess rotation in registration | [#139](https://github.com/koide3/small_gicp/pull/139) |
-| Nav2 documentation | Fixed VelocityPolygon examples in the Collision Monitor tutorial | [#980](https://github.com/ros-navigation/docs.nav2.org/pull/980) |
-
-<details>
-<summary>Selected pull requests under review (checked October 1, 2026)</summary>
-
-| Project | Proposed change | Pull request |
-|---|---|---|
-| LeRobot | Configurable protection limits for SO follower grippers | [#4783](https://github.com/huggingface/lerobot/pull/4783) |
-| ros2_control | Lifecycle transitions in the set_controller_state CLI verb | [#3641](https://github.com/ros-controls/ros2_control/pull/3641) |
-| rosbag2 | Remove legacy ament export calls | [#2519](https://github.com/ros2/rosbag2/pull/2519) |
-| MoveIt2 | Configuration hint when the legacy planning_plugin key is used | [#3895](https://github.com/moveit/moveit2/pull/3895) |
-| Isaac Lab | Validate Gaussian scale randomization parameters as mean and standard deviation | [#8123](https://github.com/isaac-sim/IsaacLab/pull/8123) |
-| Gazebo rendering | Respect arrow rotation visibility when showing a parent visual | [#1348](https://github.com/gazebosim/gz-rendering/pull/1348) |
-| TurtleBot3 | Make LDS_MODEL optional in robot.launch.py | [#1152](https://github.com/ROBOTIS-GIT/turtlebot3/pull/1152) |
-
-</details>
-
-## Earlier software and hardware work
-
-- Developed and operated mobile games and 80 WebGL science simulations. Built Python and Unity CLI parallel builds that reduced build time by about 80%.
-- [BreakTok](https://github.com/mmporong/toython-hackathon): IMU device for detecting scrolling rhythms (TOYTHON 2026, top-20 final).
-- [Robot dashboard](https://github.com/mmporong/robot-dashboard): replay and inspect ROS 2 execution records in MCAP.
-
-## Tech stack
+### 🛠️ Tech Stack
 
 ![ROS 2](https://img.shields.io/badge/ROS_2-22314E?style=flat&logo=ros&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=cplusplus&logoColor=white)
@@ -81,18 +38,23 @@ Compared reward terms and disturbances under fixed training budgets, with repeat
 ![Notion](https://img.shields.io/badge/Notion-000000?style=flat&logo=notion&logoColor=white)
 ![SolidWorks](https://img.shields.io/badge/SolidWorks-CC1F35?style=flat&logo=dassaultsystemes&logoColor=white)
 
+---
 
-## Contact
+### 🧭 Now & Next
+
+| | |
+|---|---|
+| 📍 | Korea · Physical AI program through 2026.11; seeking junior robotics software integration and testing roles |
+| 🔧 | Hands-on: ROS 2, C++, Python, Linux, Cartographer, Nav2, MCAP, Gazebo, analytical IK, LeRobot / ACT, MuJoCo, Isaac Sim, Isaac Lab |
+| 🧪 | Current work: AMR chassis integration, SO-101 demonstration data, dual-arm serving workflows and imitation-learning integration |
+| 📚 | Start here: [portfolio](https://mmporong-portfolio.vercel.app/) · [AMR code & evaluation](https://github.com/mmporong/jdamr_cube_ros) · [SO-101](https://github.com/mmporong/so101-mobile-manipulation) · [dual-arm robot](https://github.com/mmporong/bimanual-robot) · [Go2 results](https://github.com/mmporong/isaac-walk-rl/blob/main/docs/RESULTS_SUMMARY.md) |
+
+---
+
+### 📫 Contact
 
 [![Email](https://img.shields.io/badge/Email-mmporong%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:mmporong@gmail.com)
 [![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin-white&logoColor=fff)](https://www.linkedin.com/in/mmporong/)
 [![hello, robot](https://img.shields.io/badge/hello%2C_robot-garden-2E7D32?style=flat-square&logo=github&logoColor=white)](https://mmporong.github.io/robotics-garden/)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@hardboiledexpress940)
 [![Google Play](https://img.shields.io/badge/Google_Play-4FC3F7?style=flat-square&logo=googleplay&logoColor=white)](https://play.google.com/store/apps/dev?id=7488802924019572290)
-
-<details>
-<summary>Contribution animation</summary>
-
-![Cat Snake](https://raw.githubusercontent.com/mmporong/running-cats/main/cat-snake.gif?v=6a04031)
-
-</details>
