@@ -7,19 +7,14 @@
 ### 🤖 About Me
 
 #### Robotics software engineer (junior) | ROS 2 · C++ · Python · Linux<br>
-Mechanical engineering (B.S.) and about five years of Unity/C# software development.<br>
-I connect robot hardware, navigation and task execution, then check the results against real-robot runs and recorded logs.
+Mechanical engineering graduate with about five years of Unity/C# development, including mobile games and 80 WebGL science simulations.<br>
+I now work on robot navigation, manipulation and execution-log analysis.
 
-  🎓 Physical AI Semi-Humanoid Engineer Program, Dongguk AI Campus (2026.07.06 to 11.04, in progress) · B.S. Mech. Eng., Tech Univ. of Korea<br>
-  🚗 [AMR](https://github.com/mmporong/jdamr_cube_ros): ESP32 firmware, C++ ROS 2 driver, Cartographer and Nav2. Verified an approximately 77 m corridor round trip, obstacle handling and same-goal resumption. After moving the drive system to a dual-arm robot chassis, I updated its footprint and protective-stop region and ran 20 goals on the existing map.<br>
-  🦾 [SO-101](https://github.com/mmporong/so101-mobile-manipulation): analytical IK and wrist-camera grasping for real-robot pick-and-place. Prepared an ACT dataset with waiting segments removed (22 episodes, 4,503 frames); a separate ACT run produced one observed autonomous cube grasp. Repeated success rate and the effect of the cleaned dataset remain unverified.<br>
-  🥤 [Dual-arm serving robot](https://github.com/mmporong/bimanual-robot) (team): ROS 2 Action workflows and Isaac Sim robot integration; one planning-based order completed nine stages in simulation. I contributed to robot setup and pre-training integration. A teammate trained the policies, and the team's SmolVLA policy completed one real-robot water-pouring and cup-placement sequence using 40 demonstrations. The simulation workflow and the real-robot policy result are separate experiments.<br>
-  🧪 Gazebo: rebuilt walls from the saved map and reproduced obstacle scenes with the same waypoints and navigation settings.<br>
-  🐾 [Isaac Lab / Go2](https://github.com/mmporong/isaac-walk-rl): compared reward conditions under a fixed training budget and evaluated policies across directions, terrain and seeds; recorded trade-offs and experiments that showed no improvement. Results are from simulation.<br>
-  🔧 Open source: merged fixes in [Navigation2 #6560](https://github.com/ros-navigation/navigation2/pull/6560) (warning throttling), [MuJoCo Menagerie #324](https://github.com/google-deepmind/mujoco_menagerie/pull/324) (SO-101 joint limit), [small_gicp #139](https://github.com/koide3/small_gicp/pull/139) (initial rotation), and [Nav2 docs #980](https://github.com/ros-navigation/docs.nav2.org/pull/980) (Collision Monitor examples).<br>
-  🧪 BreakTok: IMU device for detecting scrolling rhythms (TOYTHON 2026, top-20 final)<br>
-  🌱 Learning and experiment notes: [**hello, robot**](https://mmporong.github.io/robotics-garden/)<br>
-  🕹️ Earlier work: mobile game development and operation; 80 WebGL science simulations; Python and Unity CLI parallel builds that reduced build time by about 80%.
+  🎓 Dongguk AI Campus · Physical AI program (July to November 2026, in progress)<br>
+  🚗 [AMR](https://github.com/mmporong/jdamr_cube_ros): ROS 2 / Nav2 integration; approximately 77 m corridor round trip verified on a real robot.<br>
+  🦾 [SO-101](https://github.com/mmporong/so101-mobile-manipulation) · [Dual-arm robot](https://github.com/mmporong/bimanual-robot): wrist-camera grasping; ROS 2 Action workflows and Isaac Sim integration for the team project.<br>
+  🔧 Merged contributions: [Navigation2](https://github.com/ros-navigation/navigation2/pull/6560) · [MuJoCo Menagerie](https://github.com/google-deepmind/mujoco_menagerie/pull/324) · [small_gicp](https://github.com/koide3/small_gicp/pull/139) · [Nav2 docs](https://github.com/ros-navigation/docs.nav2.org/pull/980)<br>
+  🌱 Notes: [**hello, robot**](https://mmporong.github.io/robotics-garden/)
 
 ---
 
