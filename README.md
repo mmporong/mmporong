@@ -7,14 +7,18 @@
 ### 🤖 About Me
 
 #### Robotics software engineer (junior) | ROS 2 · C++ · Python · Linux<br>
-Mechanical engineering graduate with about five years of Unity/C# development, including mobile games and 80 WebGL science simulations.<br>
-I now work on robot navigation, manipulation and execution-log analysis.
+Mechanical engineering (B.S.) and about five years of Unity/C# software development.<br>
+I connect robot hardware, navigation and task execution, then check the results against real-robot runs and recorded logs.
 
-  🎓 Dongguk AI Campus · Physical AI program (July to November 2026, in progress)<br>
-  🚗 [AMR](https://github.com/mmporong/jdamr_cube_ros): ROS 2 / Nav2 integration; approximately 77 m corridor round trip verified on a real robot.<br>
-  🦾 [SO-101](https://github.com/mmporong/so101-mobile-manipulation) · [Dual-arm robot](https://github.com/mmporong/bimanual-robot): wrist-camera grasping; ROS 2 Action workflows and Isaac Sim integration for the team project.<br>
+  🎓 Physical AI Semi-Humanoid Engineer Program, Dongguk AI Campus (July 6 to November 4, 2026, in progress)<br>
+  🚗 [AMR](https://github.com/mmporong/jdamr_cube_ros): ESP32 firmware, C++ base driver, Cartographer and Nav2. Verified a ~77 m corridor round trip and same-goal resumption after obstacle stops; reran 20 goals after a chassis change.<br>
+  🦾 [SO-101](https://github.com/mmporong/so101-mobile-manipulation): analytical IK and wrist-camera grasping for real-robot pick-and-place. Prepared ACT demonstrations with waiting segments removed; a separate policy run produced one observed autonomous grasp.<br>
+  🥤 [Dual-arm serving robot](https://github.com/mmporong/bimanual-robot) (team): ROS 2 Action workflows and Isaac Sim integration; a planning-based order completed nine stages in simulation. I worked on robot setup and integration; a teammate-trained SmolVLA policy completed one real-robot water-pouring and cup-placement sequence.<br>
+  🐾 [Isaac Lab / Go2](https://github.com/mmporong/isaac-walk-rl): compared rewards and disturbances under fixed training budgets and repeated seeds, recording both trade-offs and experiments with no improvement. Results are from simulation.<br>
   🔧 Merged contributions: [Navigation2](https://github.com/ros-navigation/navigation2/pull/6560) · [MuJoCo Menagerie](https://github.com/google-deepmind/mujoco_menagerie/pull/324) · [small_gicp](https://github.com/koide3/small_gicp/pull/139) · [Nav2 docs](https://github.com/ros-navigation/docs.nav2.org/pull/980)<br>
-  🌱 Notes: [**hello, robot**](https://mmporong.github.io/robotics-garden/)
+  🧪 [BreakTok](https://github.com/mmporong/toython-hackathon): IMU device for detecting scrolling rhythms (TOYTHON 2026, top-20 final)<br>
+  🕹️ Earlier work: mobile game development and operation; 80 WebGL science simulations; Python + Unity CLI parallel builds reduced build time by about 80%.<br>
+  🌱 Learning and experiment notes: [**hello, robot**](https://mmporong.github.io/robotics-garden/)
 
 ---
 
