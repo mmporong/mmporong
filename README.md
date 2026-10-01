@@ -40,7 +40,7 @@ I connect robot hardware, navigation and task execution, then check the results 
 
 ### 🧭 Now & Next
 
-| | |
+| Topic | Details |
 |---|---|
 | 📍 | Korea · Physical AI program through 2026.11; seeking junior robotics software integration and testing roles |
 | 🔧 | Hands-on: ROS 2, C++, Python, Linux, Cartographer, Nav2, MCAP, Gazebo, analytical IK, LeRobot / ACT, MuJoCo, Isaac Sim, Isaac Lab |
