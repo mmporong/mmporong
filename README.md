@@ -10,14 +10,15 @@
 Mechanical engineering (B.S.) and about five years of Unity/C# software development.<br>
 I connect robot hardware, navigation and task execution, then check the results against real-robot runs and recorded logs.
 
-  🎓 Physical AI Semi-Humanoid Engineer Program, Dongguk AI Campus (July 6 to November 4, 2026, in progress)<br>
-  🚗 [AMR](https://github.com/mmporong/jdamr_cube_ros): ESP32 firmware, C++ base driver, Cartographer and Nav2. Verified a ~77 m corridor round trip and same-goal resumption after obstacle stops; reran 20 goals after a chassis change.<br>
-  🥤 [Dual-arm serving robot](https://github.com/mmporong/bimanual-robot) (team): ROS 2 Action workflows and Isaac Sim integration; a planning-based order completed nine stages in simulation. I worked on robot setup and integration; a teammate-trained SmolVLA policy completed one real-robot water-pouring and cup-placement sequence.<br>
-  🐾 [Isaac Lab / Go2](https://github.com/mmporong/isaac-walk-rl): compared rewards and disturbances under fixed training budgets and repeated seeds, recording both trade-offs and experiments with no improvement. Results are from simulation.<br>
-  🔧 Merged contributions: [Navigation2](https://github.com/ros-navigation/navigation2/pull/6560) · [MuJoCo Menagerie](https://github.com/google-deepmind/mujoco_menagerie/pull/324) · [small_gicp](https://github.com/koide3/small_gicp/pull/139) · [Nav2 docs](https://github.com/ros-navigation/docs.nav2.org/pull/980)<br>
-  🏆 NVIDIA Korea Agentic AI Hackathon 2026: Top 5 finalist with Team Mollet. Qualifying-round entry: [RL Triage Agent](https://github.com/mmporong/rl-triage-agent), an Isaac Lab RL training triage agent built with Nemotron, NeMo Agent Toolkit and an OpenShell sandbox.<br>
+  🎓 Physical AI Semi-Humanoid Engineer Program, Dongguk AI Campus (656 hours, July 6 to November 4, 2026, in progress)<br>
+  🚗 [AMR](https://github.com/mmporong/jdamr_cube_ros): ESP32 firmware, C++ base driver, Cartographer and Nav2. Completed 20 goals along a ~77 m planned corridor route and verified same-goal command resumption after obstacle stops. Depth-camera tabletop/front-edge alignment for final approach: a 1 cm target with an operator-checked 1.5 cm remaining gap in the four-wheel trial. Separate two-wheel dock-return trials recorded nine arrival confirmations.<br>
+  🥤 [Dual-arm serving robot](https://github.com/mmporong/bimanual-robot) (team): integrated the URDF robot, restaurant collision scene, simulator-coordinate A* navigation and task stages in Isaac Sim. Connected web orders and cancellation to the simulator through ROS 2 Action and process-separated IPC; verified nine-stage execution and stopping after cancellation. Task completion, water loss and placement conditions were evaluated separately.<br>
+  🐾 [Isaac Lab / Go2](https://github.com/mmporong/isaac-walk-rl): compared four reward conditions across three seeds under fixed training budgets and command sets. Evaluated command tracking and action variation separately from training rewards; retained the action-change penalty after its removal worsened those metrics. Results are from simulation.<br>
+  🤖 Unitree G1 humanoid: trained and evaluated a walking policy in simulation, separated the contributions of the policy and a ground-truth-pose tracker, and connected policy execution through Isaac Sim / ROS 2 Bridge.<br>
+  🔧 Merged contributions: [Google DeepMind / MuJoCo Menagerie](https://github.com/google-deepmind/mujoco_menagerie/pull/324) · [ROS 2 / rosbag2](https://github.com/ros2/rosbag2/pull/2519) · [Gazebo Gz Rendering](https://github.com/gazebosim/gz-rendering/pull/1348) · [Navigation2](https://github.com/ros-navigation/navigation2/pull/6560)<br>
+  🏆 NVIDIA Korea Agentic AI Hackathon 2026: Top 5 of 10 final-round teams with Team Mollet. Qualifying-round entry: [RL Triage Agent](https://github.com/mmporong/rl-triage-agent), an Isaac Lab RL training triage agent using NVIDIA's Nemotron language model, NeMo Agent Toolkit agent framework and an OpenShell sandbox. The final round used a separate on-site mission.<br>
   🧪 [BreakTok](https://github.com/mmporong/toython-hackathon): IMU device for detecting scrolling rhythms (TOYTHON 2026, top-20 final)<br>
-  🕹️ Earlier work: mobile game development and operation; 80 WebGL science simulations; Python + Unity CLI parallel builds reduced build time by about 80%.<br>
+  🕹️ Earlier work: developed and operated four mobile games and 80 WebGL science simulations; coordinated behavior and data contracts across planning, design, 3D and web teams. Python + Unity CLI parallel builds reduced build time by about 80%.<br>
   🌱 Learning and experiment notes: [**hello, robot**](https://mmporong.github.io/robotics-garden/)
 
 ---
@@ -45,8 +46,8 @@ I connect robot hardware, navigation and task execution, then check the results 
 |---|---|
 | 📍 | Korea · Physical AI program through 2026.11; seeking junior robotics software integration and testing roles |
 | 🔧 | Hands-on: ROS 2, C++, Python, Linux, Cartographer, Nav2, MCAP, Gazebo, analytical IK, LeRobot / ACT, MuJoCo, Isaac Sim, Isaac Lab |
-| 🧪 | Current work: AMR chassis integration, SO-101 demonstration data, dual-arm serving workflows and imitation-learning integration |
-| 📚 | Start here: [portfolio](https://mmporong-portfolio.vercel.app/) · [AMR code & evaluation](https://github.com/mmporong/jdamr_cube_ros) · [SO-101](https://github.com/mmporong/so101-mobile-manipulation) · [dual-arm robot](https://github.com/mmporong/bimanual-robot) · [Go2 results](https://github.com/mmporong/isaac-walk-rl/blob/main/docs/RESULTS_SUMMARY.md) |
+| 🧪 | Current work: AMR integration, depth-based final approach and dock-return testing; SO-101 calibration and ACT demonstrations; dual-arm task simulation and Go2/G1 policy evaluation |
+| 📚 | Start here: [portfolio](https://mmporong-portfolio.vercel.app/) · [AMR code & evaluation](https://github.com/mmporong/jdamr_cube_ros) · [SO-101](https://github.com/mmporong/so101-mobile-manipulation) · [dual-arm robot](https://github.com/mmporong/bimanual-robot) · [Go2 results](https://github.com/mmporong/isaac-walk-rl/blob/main/docs/RESULTS_SUMMARY.md) · [RL diagnostics](https://github.com/mmporong/rl-triage-agent) |
 
 ---
 
