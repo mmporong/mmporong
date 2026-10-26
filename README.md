@@ -6,7 +6,7 @@
 
 ### 🤖 About Me
 
-#### Robotics software engineer (junior) | ROS 2 · C++ · Python · Linux<br>
+#### Robotics software engineer | ROS 2 · C++ · Python · Linux<br>
 Mechanical engineering (B.S.) and about five years of Unity/C# software development.<br>
 I connect robot hardware, navigation and task execution, then check the results against real-robot runs and recorded logs.
 
@@ -44,7 +44,7 @@ I connect robot hardware, navigation and task execution, then check the results 
 
 | Topic | Details |
 |---|---|
-| 📍 | Korea · Physical AI program through 2026.11; seeking junior robotics software integration and testing roles |
+| 📍 | Korea · Physical AI program through 2026.11; seeking robotics software integration and testing roles |
 | 🔧 | Hands-on: ROS 2, C++, Python, Linux, Cartographer, Nav2, MCAP, Gazebo, analytical IK, LeRobot / ACT, MuJoCo, Isaac Sim, Isaac Lab |
 | 🧪 | Current work: AMR integration, depth-based final approach and dock-return testing; SO-101 calibration and ACT demonstrations; dual-arm task simulation and Go2/G1 policy evaluation |
 | 📚 | Start here: [portfolio](https://mmporong-portfolio.vercel.app/) · [AMR code & evaluation](https://github.com/mmporong/jdamr_cube_ros) · [SO-101](https://github.com/mmporong/so101-mobile-manipulation) · [dual-arm robot](https://github.com/mmporong/bimanual-robot) · [Go2 results](https://github.com/mmporong/isaac-walk-rl/blob/main/docs/RESULTS_SUMMARY.md) · [RL diagnostics](https://github.com/mmporong/rl-triage-agent) |
