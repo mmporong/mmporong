@@ -6,14 +6,17 @@
 
 ### 🤖 About Me
 
-#### Robotics software engineer | ROS 2 · C++ · Python · Linux<br>
+#### Robotics software engineer | Robot simulation · ROS 2 · C++ · Python · Linux<br>
 Mechanical engineering (B.S.) and about five years of Unity/C# software development.<br>
-I connect robot hardware, navigation and task execution, then check the results against real-robot runs and recorded logs.
+I build robot simulation and software integration workflows, then check control, task and system behavior against repeatable runs and recorded evidence.
 
   🎓 Physical AI Semi-Humanoid Engineer Program, Dongguk AI Campus (656 hours, July 6 to November 4, 2026, in progress)<br>
   🚗 [AMR](https://github.com/mmporong/jdamr_cube_ros): ESP32 firmware, C++ driver, Cartographer and Nav2. Completed 20 goals on a ~77 m planned route; verified same-goal command resumption after obstacle stops. Depth-camera tabletop-edge alignment and slow approach parked the four-wheel AMR 1 cm from the tabletop edge. Separate two-wheel dock-return trials confirmed nine arrivals.<br>
   🥤 [Dual-arm serving robot](https://github.com/mmporong/bimanual-robot) (team): integrated the robot URDF, restaurant collision scene, simulator-coordinate A* and task stages in Isaac Sim. Linked web orders/cancellation via ROS 2 Action and process-separated IPC; verified a nine-stage run and stopping after cancellation. Assessed completion, water loss and placement separately.<br>
-  🐾 [Isaac Lab / Go2](https://github.com/mmporong/isaac-walk-rl): compared four reward conditions over three seeds at fixed budgets and commands. Measured command tracking and action variation apart from rewards; kept the action-change penalty after removal worsened both. Simulation only.<br>
+  🦾 [RB-Y1 tray lab](https://github.com/mmporong/rby1-tray-lab): configured a MuJoCo model with head/wrist RGB-D observations and 20-joint torso-arm IK for bimanual tray transport. Under matched conditions and seeds, revised retreat clearance improved task completion from 6/12 to 11/12 runs. Replayed joint loads and section-based stress estimates on the recorded motion timeline.<br>
+  🏭 [Factory Ops Twin](https://github.com/mmporong/factory-ops-twin): modeled dispatch, traffic reservations and process handoffs for a fixed 16-AMR workload. The completed CPU run recorded 48 shipments, 48 empty-carrier returns and 240 transports; Isaac Sim replays the recorded poses for operations review.<br>
+  🔍 [USD Scene Review](https://github.com/mmporong/usd-scene-review): built a read-only OpenUSD A/B review workflow that keeps the camera fixed, compares the same prim paths and exports semantic delta reports without editing source scenes.<br>
+  🐾 [Isaac Lab / Go2](https://github.com/mmporong/isaac-walk-rl): compared four reward conditions over three seeds at fixed budgets and commands. Measured command tracking and action variation apart from rewards; kept the action-change penalty after removal worsened both.<br>
   🤖 Unitree G1 humanoid: trained a simulated walking policy, evaluated it separately from the ground-truth-pose tracker, and linked execution via Isaac Sim / ROS 2 Bridge.<br>
   🔧 Merged contributions: [Google DeepMind / MuJoCo Menagerie](https://github.com/google-deepmind/mujoco_menagerie/pull/324) · [ROS 2 / rosbag2](https://github.com/ros2/rosbag2/pull/2519) · [Gazebo Gz Rendering](https://github.com/gazebosim/gz-rendering/pull/1348) · [Navigation2](https://github.com/ros-navigation/navigation2/pull/6560)<br>
   🏆 NVIDIA Korea Agentic AI Hackathon 2026: Top 5 of 10 final-round teams (Team Mollet). Qualifier: [RL Triage Agent](https://github.com/mmporong/rl-triage-agent), Isaac Lab RL diagnostics with NVIDIA's Nemotron LLM, NeMo Agent Toolkit agent framework and OpenShell sandbox. Final: a separate on-site mission.<br>
@@ -25,6 +28,10 @@ I connect robot hardware, navigation and task execution, then check the results 
 
 ### 🛠️ Tech Stack
 
+![MuJoCo](https://img.shields.io/badge/MuJoCo-1F6FEB?style=flat)
+![Isaac Sim](https://img.shields.io/badge/Isaac_Sim-76B900?style=flat&logo=nvidia&logoColor=white)
+![Isaac Lab](https://img.shields.io/badge/Isaac_Lab-76B900?style=flat&logo=nvidia&logoColor=white)
+![OpenUSD](https://img.shields.io/badge/OpenUSD-4B5563?style=flat)
 ![ROS 2](https://img.shields.io/badge/ROS_2-22314E?style=flat&logo=ros&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=cplusplus&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
@@ -44,10 +51,10 @@ I connect robot hardware, navigation and task execution, then check the results 
 
 | Topic | Details |
 |---|---|
-| 📍 | Korea · Physical AI program through 2026.11; seeking robotics software integration and testing roles |
-| 🔧 | Hands-on: ROS 2, C++, Python, Linux, Cartographer, Nav2, MCAP, Gazebo, analytical IK, LeRobot / ACT, MuJoCo, Isaac Sim, Isaac Lab |
-| 🧪 | Current work: AMR integration, depth-based final approach and dock-return testing; SO-101 calibration and ACT demonstrations; dual-arm task simulation and Go2/G1 policy evaluation |
-| 📚 | Start here: [portfolio](https://mmporong-portfolio.vercel.app/) · [AMR code & evaluation](https://github.com/mmporong/jdamr_cube_ros) · [SO-101](https://github.com/mmporong/so101-mobile-manipulation) · [dual-arm robot](https://github.com/mmporong/bimanual-robot) · [Go2 results](https://github.com/mmporong/isaac-walk-rl/blob/main/docs/RESULTS_SUMMARY.md) · [RL diagnostics](https://github.com/mmporong/rl-triage-agent) |
+| 📍 | Korea · Physical AI program through 2026.11; seeking robot simulation, software integration and testing roles |
+| 🔧 | Hands-on: ROS 2, C++, Python, Linux, Cartographer, Nav2, MCAP, Gazebo, MuJoCo, Isaac Sim, Isaac Lab, OpenUSD, analytical IK, LeRobot / ACT |
+| 🧪 | Current work: robot models and simulation assets; bimanual manipulation and load analysis; AMR operations simulation and real-robot integration; Go2/G1 policy evaluation |
+| 📚 | Start here: [portfolio](https://mmporong-portfolio.vercel.app/) · [RB-Y1 simulation](https://github.com/mmporong/rby1-tray-lab) · [Factory Ops Twin](https://github.com/mmporong/factory-ops-twin) · [USD review](https://github.com/mmporong/usd-scene-review) · [AMR code & evaluation](https://github.com/mmporong/jdamr_cube_ros) · [dual-arm robot](https://github.com/mmporong/bimanual-robot) · [Go2 results](https://github.com/mmporong/isaac-walk-rl/blob/main/docs/RESULTS_SUMMARY.md) · [RL diagnostics](https://github.com/mmporong/rl-triage-agent) |
 
 ---
 
