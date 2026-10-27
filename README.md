@@ -7,21 +7,21 @@
 ### 🤖 About Me
 
 #### Robotics software engineer | Robot simulation · ROS 2 · C++ · Python · Linux<br>
-Mechanical engineering (B.S.) and about five years of Unity/C# software development.<br>
-I build robot simulation and software integration workflows, then check control, task and system behavior against repeatable runs and recorded evidence.
+Mechanical engineering B.S. · about five years of Unity/C# development.<br>
+Robot modeling, simulation and integration, checked against recorded runs.
 
-  🎓 Physical AI Semi-Humanoid Engineer Program, Dongguk AI Campus (656 hours, July 6 to November 4, 2026, in progress)<br>
-  🚗 [AMR](https://github.com/mmporong/jdamr_cube_ros): ESP32 firmware, C++ driver, Cartographer and Nav2. Completed 20 goals on a ~77 m planned route; verified same-goal command resumption after obstacle stops. Depth-camera tabletop-edge alignment and slow approach parked the four-wheel AMR 1 cm from the tabletop edge. Separate two-wheel dock-return trials confirmed nine arrivals.<br>
-  🥤 [Dual-arm serving robot](https://github.com/mmporong/bimanual-robot) (team): integrated the robot URDF, restaurant collision scene, simulator-coordinate A* and task stages in Isaac Sim. Linked web orders/cancellation via ROS 2 Action and process-separated IPC; verified a nine-stage run and stopping after cancellation. Assessed completion, water loss and placement separately.<br>
-  🦾 [RB-Y1 tray lab](https://github.com/mmporong/rby1-tray-lab): configured a MuJoCo model with head/wrist RGB-D observations and 20-joint torso-arm IK for bimanual tray transport. Under matched conditions and seeds, revised retreat clearance improved task completion from 6/12 to 11/12 runs. Replayed joint loads and section-based stress estimates on the recorded motion timeline.<br>
-  🏭 [Factory Ops Twin](https://github.com/mmporong/factory-ops-twin): modeled dispatch, traffic reservations and process handoffs for a fixed 16-AMR workload. The completed CPU run recorded 48 shipments, 48 empty-carrier returns and 240 transports; Isaac Sim replays the recorded poses for operations review.<br>
-  🔍 [USD Scene Review](https://github.com/mmporong/usd-scene-review): built a read-only OpenUSD A/B review workflow that keeps the camera fixed, compares the same prim paths and exports semantic delta reports without editing source scenes.<br>
-  🐾 [Isaac Lab / Go2](https://github.com/mmporong/isaac-walk-rl): compared four reward conditions over three seeds at fixed budgets and commands. Measured command tracking and action variation apart from rewards; kept the action-change penalty after removal worsened both.<br>
-  🤖 Unitree G1 humanoid: trained a simulated walking policy, evaluated it separately from the ground-truth-pose tracker, and linked execution via Isaac Sim / ROS 2 Bridge.<br>
-  🔧 Merged contributions: [Google DeepMind / MuJoCo Menagerie](https://github.com/google-deepmind/mujoco_menagerie/pull/324) · [ROS 2 / rosbag2](https://github.com/ros2/rosbag2/pull/2519) · [Gazebo Gz Rendering](https://github.com/gazebosim/gz-rendering/pull/1348) · [Navigation2](https://github.com/ros-navigation/navigation2/pull/6560)<br>
-  🏆 NVIDIA Korea Agentic AI Hackathon 2026: Top 5 of 10 final-round teams (Team Mollet). Qualifier: [RL Triage Agent](https://github.com/mmporong/rl-triage-agent), Isaac Lab RL diagnostics with NVIDIA's Nemotron LLM, NeMo Agent Toolkit agent framework and OpenShell sandbox. Final: a separate on-site mission.<br>
+  🎓 Physical AI Semi-Humanoid Engineer Program, Dongguk AI Campus · 656 hours · Jul 6-Nov 4, 2026 · in progress<br>
+  🚗 [AMR](https://github.com/mmporong/jdamr_cube_ros): ESP32/C++, Cartographer and Nav2; 20 goals over ~77 m, same-goal resume after stops, depth-aligned 1 cm tabletop parking and nine two-wheel dock returns.<br>
+  🥤 [Dual-arm serving robot](https://github.com/mmporong/bimanual-robot) (team): URDF, collision scene, A* and Isaac Sim task stages; ROS 2 Action/IPC orders, nine-stage run and cancellation stop.<br>
+  🦾 [RB-Y1 tray lab](https://github.com/mmporong/rby1-tray-lab): MuJoCo, head/wrist RGB-D and 20-joint IK; matched condition-and-seed runs improved 6/12 → 11/12 after a retreat-clearance revision, with motion-synced joint loads and section-based stress estimates.<br>
+  🏭 [Factory Ops Twin](https://github.com/mmporong/factory-ops-twin): dispatch, traffic reservations and process handoffs for 16 AMRs; the CPU run completed 48 shipments, 48 returns and 240 transports, then Isaac Sim replayed its poses.<br>
+  🔍 [USD Scene Review](https://github.com/mmporong/usd-scene-review): read-only OpenUSD A/B review with a fixed camera, matching prims and semantic delta reports.<br>
+  🐾 [Isaac Lab / Go2](https://github.com/mmporong/isaac-walk-rl): four reward conditions × three seeds; command tracking and action variation supported the action-change penalty.<br>
+  🤖 Unitree G1: simulated walking policy evaluation and Isaac Sim / ROS 2 Bridge execution.<br>
+  🔧 Merged: [MuJoCo Menagerie](https://github.com/google-deepmind/mujoco_menagerie/pull/324) · [rosbag2](https://github.com/ros2/rosbag2/pull/2519) · [Gz Rendering](https://github.com/gazebosim/gz-rendering/pull/1348) · [Navigation2](https://github.com/ros-navigation/navigation2/pull/6560)<br>
+  🏆 NVIDIA Korea Agentic AI Hackathon 2026: Top 5 of 10 final-round teams (Team Mollet). [RL Triage Agent](https://github.com/mmporong/rl-triage-agent): Isaac Lab, Nemotron, NeMo Agent Toolkit and OpenShell; final: on-site mission.<br>
   🧪 [BreakTok](https://github.com/mmporong/toython-hackathon): IMU device for detecting scrolling rhythms (TOYTHON 2026, top-20 final)<br>
-  🕹️ Earlier work: built and ran four mobile games and 80 WebGL science simulations; aligned behavior/data contracts with planning/design/3D/web teams. Python + Unity CLI parallel builds cut build time ~80%.<br>
+  🕹️ Earlier work: four mobile games, 80 WebGL science simulations, cross-team behavior/data contracts; Python + Unity CLI cut build time ~80%.<br>
   🌱 Learning and experiment notes: [**hello, robot**](https://mmporong.github.io/robotics-garden/)
 
 ---
