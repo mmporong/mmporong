@@ -6,18 +6,18 @@
 
 ### 🤖 About Me
 
-#### Robotics software engineer | Robot simulation · ROS 2 · C++ · Python · Linux<br>
+#### Robotics software engineer | ROS 2 · C++ · Python · Linux | Isaac Sim · Isaac Lab · MuJoCo<br>
 Mechanical engineering B.S. · about five years of Unity/C# development.<br>
-Robot modeling, simulation and integration, checked against recorded runs.
+Hardware integration, navigation and robot tasks, verified with real runs and simulation.
 
   🎓 Physical AI Semi-Humanoid Engineer Program, Dongguk AI Campus · 656 hours · Jul 6-Nov 4, 2026 · in progress<br>
   🚗 [AMR](https://github.com/mmporong/jdamr_cube_ros): ESP32/C++, Cartographer and Nav2; 20 goals over ~77 m, same-goal resume after stops, depth-aligned 1 cm tabletop parking and nine two-wheel dock returns.<br>
   🥤 [Dual-arm serving robot](https://github.com/mmporong/bimanual-robot) (team): URDF, collision scene, A* and Isaac Sim task stages; ROS 2 Action/IPC orders, nine-stage run and cancellation stop.<br>
-  🦾 [RB-Y1 tray lab](https://github.com/mmporong/rby1-tray-lab): MuJoCo, head/wrist RGB-D and 20-joint IK; matched condition-and-seed runs improved 6/12 → 11/12 after a retreat-clearance revision, with motion-synced joint loads and section-based stress estimates.<br>
   🏭 [Factory Ops Twin](https://github.com/mmporong/factory-ops-twin): dispatch, traffic reservations and process handoffs for 16 AMRs; the CPU run completed 48 shipments, 48 returns and 240 transports, then Isaac Sim replayed its poses.<br>
   🔍 [USD Scene Review](https://github.com/mmporong/usd-scene-review): read-only OpenUSD A/B review with a fixed camera, matching prims and semantic delta reports.<br>
-  🐾 [Isaac Lab / Go2](https://github.com/mmporong/isaac-walk-rl): four reward conditions × three seeds; command tracking and action variation supported the action-change penalty.<br>
   🤖 Unitree G1: simulated walking policy evaluation and Isaac Sim / ROS 2 Bridge execution.<br>
+  🐾 [Isaac Lab / Go2](https://github.com/mmporong/isaac-walk-rl): four reward conditions × three seeds; command tracking and action variation supported the action-change penalty.<br>
+  🦾 [RB-Y1 tray lab](https://github.com/mmporong/rby1-tray-lab): MuJoCo, head/wrist RGB-D and 20-joint IK; matched condition-and-seed runs improved 6/12 → 11/12 after a retreat-clearance revision, with motion-synced joint loads and section-based stress estimates.<br>
   🔧 Merged: [MuJoCo Menagerie](https://github.com/google-deepmind/mujoco_menagerie/pull/324) · [rosbag2](https://github.com/ros2/rosbag2/pull/2519) · [Gz Rendering](https://github.com/gazebosim/gz-rendering/pull/1348) · [Navigation2](https://github.com/ros-navigation/navigation2/pull/6560)<br>
   🏆 NVIDIA Korea Agentic AI Hackathon 2026: Top 5 of 10 final-round teams (Team Mollet). [RL Triage Agent](https://github.com/mmporong/rl-triage-agent): Isaac Lab, Nemotron, NeMo Agent Toolkit and OpenShell; final: on-site mission.<br>
   🧪 [BreakTok](https://github.com/mmporong/toython-hackathon): IMU device for detecting scrolling rhythms (TOYTHON 2026, top-20 final)<br>
@@ -28,14 +28,14 @@ Robot modeling, simulation and integration, checked against recorded runs.
 
 ### 🛠️ Tech Stack
 
-![MuJoCo](https://img.shields.io/badge/MuJoCo-1F6FEB?style=flat)
-![Isaac Sim](https://img.shields.io/badge/Isaac_Sim-76B900?style=flat&logo=nvidia&logoColor=white)
-![Isaac Lab](https://img.shields.io/badge/Isaac_Lab-76B900?style=flat&logo=nvidia&logoColor=white)
-![OpenUSD](https://img.shields.io/badge/OpenUSD-4B5563?style=flat)
 ![ROS 2](https://img.shields.io/badge/ROS_2-22314E?style=flat&logo=ros&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=cplusplus&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white)
+![Isaac Sim](https://img.shields.io/badge/Isaac_Sim-76B900?style=flat&logo=nvidia&logoColor=white)
+![Isaac Lab](https://img.shields.io/badge/Isaac_Lab-76B900?style=flat&logo=nvidia&logoColor=white)
+![MuJoCo](https://img.shields.io/badge/MuJoCo-1F6FEB?style=flat)
+![OpenUSD](https://img.shields.io/badge/OpenUSD-4B5563?style=flat)
 ![Gazebo](https://img.shields.io/badge/Gazebo-F58113?style=flat&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyBmaWxsPSIjZmZmIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBkPSJtMjAuOTA2IDM1LjE5NyA0My4wOTEgMjYuNzU3IDQzLjA5NS0yNi44MzUtNDMuMDktMjYuNjgyLTQzLjA5NiAyNi43Nk02My45OTMuNjRhMy41NjEgMy41NjEgMCAwIDAtMS44ODMuNTMzTDEyLjIxNiAzMi4xNDZhMy42MDUgMy42MDUgMCAwIDAtMS42OTMgMy4wNTh2NTcuNTkyYzAgMS4yNDIuNjQgMi40MDMgMS42OTMgMy4wNThsNDkuODkzIDMwLjk3M2MuMDI0LjAxMy4wNDQuMDI3LjA2OC4wNDEuMDI3LjAxNi4wNTUuMDM4LjA4Mi4wNTUuMDU4LjAzLjEyLjA0MS4xNzguMDY4LjA1OS4wMy4xMTguMDcyLjE3Ny4wOTYuMDkzLjA0LjE5Mi4wNjUuMjg3LjA5Ni4wNTYuMDE4LjEwNy4wMzkuMTY0LjA1NC4xMDcuMDMuMjE4LjA0OS4zMjcuMDY4LjA0Ny4wMDYuMDkuMDIuMTM3LjAyNy4xNTYuMDIyLjMwNy4wMjguNDY0LjAyOGEzLjQ4MSAzLjQ4MSAwIDAgMCAuOTctLjEzN2guMDEzYTMuMDE4IDMuMDE4IDAgMCAwIC4zNTUtLjEyMmMuMDM1LS4wMTMuMDcyLS4wMjYuMTA5LS4wNDEuMDk4LS4wNDQuMTktLjA5Ny4yODctLjE1LjA1Mi0uMDMuMTEyLS4wNTMuMTYzLS4wODNsLjA5Ni0uMDY4IDQ5Ljc5OC0zMC45MDVhMy41ODUgMy41ODUgMCAwIDAgMS42OTMtMy4wNThsLS4wOTYtMjguODcxYTMuNTggMy41OCAwIDAgMC0xLjg0My0zLjEyNiAzLjU4MyAzLjU4MyAwIDAgMC0zLjYzMS4wOTVsLTIxLjI0IDEzLjIyOC0xNi4zNjgtMTAuMTQzIDQxLjQ4NS0yNS44MjdhMy41OCAzLjU4IDAgMCAwIDEuNjkzLTMuMDQ0IDMuNTk2IDMuNTk2IDAgMCAwLTEuNzA3LTMuMDQ0TDY1Ljg5IDEuMTczQTMuNjA3IDMuNjA3IDAgMCAwIDYzLjk5My42NFpNMTcuNTY4IDQxLjU2NSA1My43IDY0LjAwNyAxNy41NjcgODYuNDM1Wm00OS45MzQgMjYuNjQ2IDE2LjM4IDEwLjE0My0yMS44NjggMTMuNjFhMy41NTYgMy41NTYgMCAwIDAtMS42OCAzLjA0NGwuMDU1IDIyLjMxOC0zOS40NzctMjQuNTMgMzkuNTg3LTI0LjU3MSAxLjYxLjk5NmEzLjU1OCAzLjU1OCAwIDAgMCAxLjg4NC41MzMgMy41NyAzLjU3IDAgMCAwIDEuODk4LS41MzN6bTQyLjc0IDIuMTcuMDU0IDIwLjQzNi00Mi43MjcgMjYuNTM3LS4wNjgtMjAuMzY2eiIvPjwvc3ZnPg%3D%3D)
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyBmaWxsPSIjZmZmIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBkPSJNMTE3LjUgMzMuNWwuMy0uMmMtLjYtMS4xLTEuNS0yLjEtMi40LTIuNkw2Ny4xIDIuOWMtLjgtLjUtMS45LS43LTMuMS0uNy0xLjIgMC0yLjMuMy0zLjEuN2wtNDggMjcuOWMtMS43IDEtMi45IDMuNS0yLjkgNS40djU1LjdjMCAxLjEuMiAyLjMuOSAzLjRsLS4yLjFjLjUuOCAxLjIgMS41IDEuOSAxLjlsNDguMiAyNy45Yy44LjUgMS45LjcgMy4xLjcgMS4yIDAgMi4zLS4zIDMuMS0uN2w0OC0yNy45YzEuNy0xIDIuOS0zLjUgMi45LTUuNFYzNi4xYy4xLS44IDAtMS43LS40LTIuNnptLTUzLjUgNzBjLTIxLjggMC0zOS41LTE3LjctMzkuNS0zOS41UzQyLjIgMjQuNSA2NCAyNC41YzE0LjcgMCAyNy41IDguMSAzNC4zIDIwbC0xMyA3LjVDODEuMSA0NC41IDczLjEgMzkuNSA2NCAzOS41Yy0xMy41IDAtMjQuNSAxMS0yNC41IDI0LjVzMTEgMjQuNSAyNC41IDI0LjVjOS4xIDAgMTcuMS01IDIxLjMtMTIuNGwxMi45IDcuNmMtNi44IDExLjgtMTkuNiAxOS44LTM0LjIgMTkuOHpNMTE1IDYyaC0zLjJsLS45IDRoNC4xdjVoLTVsLTEuMiA2aC00LjlsMS4yLTZoLTMuOGwtMS4yIDZoLTQuOGwxLjItNkg5NHYtNWgzLjVsLjktNEg5NHYtNWg1LjNsMS4yLTZoNC45bC0xLjIgNmgzLjhsMS4yLTZoNC44bC0xLjIgNmgyLjJ2NXptLTEyLjcgNGgzLjhsLjktNGgtMy44eiIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg%3D%3D)
 ![Unity](https://img.shields.io/badge/Unity-000000?style=flat&logo=unity&logoColor=white)
@@ -51,10 +51,10 @@ Robot modeling, simulation and integration, checked against recorded runs.
 
 | Topic | Details |
 |---|---|
-| 📍 | Korea · Physical AI program through 2026.11; seeking robot simulation, software integration and testing roles |
-| 🔧 | Hands-on: ROS 2, C++, Python, Linux, Cartographer, Nav2, MCAP, Gazebo, MuJoCo, Isaac Sim, Isaac Lab, OpenUSD, analytical IK, LeRobot / ACT |
-| 🧪 | Current work: robot models and simulation assets; bimanual manipulation and load analysis; AMR operations simulation and real-robot integration; Go2/G1 policy evaluation |
-| 📚 | Start here: [portfolio](https://mmporong-portfolio.vercel.app/) · [RB-Y1 simulation](https://github.com/mmporong/rby1-tray-lab) · [Factory Ops Twin](https://github.com/mmporong/factory-ops-twin) · [USD review](https://github.com/mmporong/usd-scene-review) · [AMR code & evaluation](https://github.com/mmporong/jdamr_cube_ros) · [dual-arm robot](https://github.com/mmporong/bimanual-robot) · [Go2 results](https://github.com/mmporong/isaac-walk-rl/blob/main/docs/RESULTS_SUMMARY.md) · [RL diagnostics](https://github.com/mmporong/rl-triage-agent) |
+| 📍 | Korea · Physical AI program through 2026.11; seeking robotics software integration, simulation and testing roles |
+| 🔧 | Hands-on: ROS 2, C++, Python, Linux, Cartographer, Nav2, MCAP, Gazebo, Isaac Sim, Isaac Lab, MuJoCo, OpenUSD, analytical IK, LeRobot / ACT |
+| 🧪 | Current work: AMR integration and operations; bimanual task execution; Isaac Sim assets and replay; Isaac Lab policy evaluation; MuJoCo manipulation and load analysis |
+| 📚 | Start here: [portfolio](https://mmporong-portfolio.vercel.app/) · [AMR code & evaluation](https://github.com/mmporong/jdamr_cube_ros) · [dual-arm robot](https://github.com/mmporong/bimanual-robot) · [Factory Ops Twin](https://github.com/mmporong/factory-ops-twin) · [USD review](https://github.com/mmporong/usd-scene-review) · [Go2 results](https://github.com/mmporong/isaac-walk-rl/blob/main/docs/RESULTS_SUMMARY.md) · [RB-Y1 simulation](https://github.com/mmporong/rby1-tray-lab) · [RL diagnostics](https://github.com/mmporong/rl-triage-agent) |
 
 ---
 
