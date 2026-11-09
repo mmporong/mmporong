@@ -12,6 +12,7 @@ Hardware integration, navigation and robot tasks, verified with real runs and si
 
   🎓 Physical AI Semi-Humanoid Engineer Program, Dongguk AI Campus · 656 hours · Jul 6-Nov 4, 2026 · completed<br>
   🏅 Dongguk University DAPIER, Nov 4, 2026: **Final Project Grand Prize** (team, mobile dual-arm water-serving robot) · **Academic Excellence Award** (individual). [Grand Prize certificate](https://mmporong-portfolio.vercel.app/award) · [Academic Excellence certificate](https://mmporong-portfolio.vercel.app/merit)<br>
+  📜 [NVIDIA Certified Associate: AI Model & Application Development (NCA-AIMAD)](https://credential.nvidia.com/6f866705-2aea-4fb7-ad3e-873eedcde320) · Nov 9, 2026<br>
   🚗 [AMR](https://github.com/mmporong/jdamr_cube_ros): ESP32/C++, Cartographer and Nav2; 20 goals over ~77 m, same-goal resume after stops, depth-aligned 1 cm tabletop parking and nine two-wheel dock returns.<br>
   🥤 [Dual-arm serving robot](https://github.com/mmporong/bimanual-robot) (team): URDF, collision scene, A* and Isaac Sim task stages; ROS 2 Action/IPC orders, nine-stage run and cancellation stop.<br>
   🏭 [Factory Ops Twin](https://github.com/mmporong/factory-ops-twin): dispatch, traffic reservations and process handoffs for 16 AMRs; the CPU run completed 48 shipments, 48 returns and 240 transports, then Isaac Sim replayed its poses.<br>
