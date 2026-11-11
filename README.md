@@ -22,7 +22,6 @@ Hardware integration, navigation and robot tasks, verified with real runs and si
   🦾 [RB-Y1 tray lab](https://github.com/mmporong/rby1-tray-lab): MuJoCo, head/wrist RGB-D and 20-joint IK; matched condition-and-seed runs improved 6/12 → 11/12 after a retreat-clearance revision, with motion-synced joint loads and section-based stress estimates.<br>
   🔧 Merged: [MuJoCo Menagerie](https://github.com/google-deepmind/mujoco_menagerie/pull/324) · [rosbag2](https://github.com/ros2/rosbag2/pull/2519) · [Gz Rendering](https://github.com/gazebosim/gz-rendering/pull/1348) · [Navigation2](https://github.com/ros-navigation/navigation2/pull/6560)<br>
   🏆 NVIDIA Korea Agentic AI Hackathon 2026: Final top 5 (Team Mollet), presented at NVIDIA AI Day Seoul 2026 on Nov 10 ([certificate](https://mmporong-portfolio.vercel.app/nvidia-award)). [RL Triage Agent](https://github.com/mmporong/rl-triage-agent): Isaac Lab, Nemotron, NeMo Agent Toolkit and OpenShell.<br>
-  🧪 [BreakTok](https://github.com/mmporong/toython-hackathon): IMU device for detecting scrolling rhythms (TOYTHON 2026, top-20 final)<br>
   🕹️ Earlier work: four mobile games, 80 WebGL science simulations, cross-team behavior/data contracts; Python + Unity CLI cut build time ~80%.<br>
   🌱 Learning and experiment notes: [**hello, robot**](https://mmporong.github.io/robotics-garden/)
 
